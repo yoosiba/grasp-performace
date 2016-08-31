@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////
-// Copyright (c) 2010 Humble Software Development
+// Copyright (c) 2016 Jakub Siberski
 //
 // Permission is hereby granted, free of charge, to any person
 // obtaining a copy of this software and associated documentation
@@ -24,11 +24,12 @@
 ////////////////////////////////////////////////////////////////////
 
 /**
- * HumbleFinance Flotr Financial Charts
+ * Modified version of the HumbleFinance Flotr Financial Charts
+ * See {@link http://humblesoftware.com/finance/source original}.
  *
  * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
- * @author Carl Sutherland
- * @version 1.1.0
+ * @author Jakub Siberski
+ * @version 0.1.0
  */
 var HumbleFinance = {
 
