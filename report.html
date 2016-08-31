@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" src="prototype.min.js"></script>
+  <script type="text/javascript" src="flotr.js"></script>
+  <link rel="stylesheet" type="text/css" href="finance.css"></link>
+  <script type="text/javascript" src="HumbleFinance.js"></script>
+  <script type="text/javascript" src="chartData.js"></script>
+
+  <title>Compare native and custom parsing</title>
+</head>
+<body>
+  <div id="graph">
+    <script type="text/javascript" src="chart.js"></script>
+    <div id="labels">
+      <div id="graphTitle">PerformanceComparison</div>
+      <div id="time">
+        <a onclick="HumbleFinance.zoom(1);">1d</a>
+        <a onclick="HumbleFinance.zoom(5);">1w</a>
+        <a onclick="HumbleFinance.zoom(21);">1m</a>
+        <a onclick="HumbleFinance.zoom(65);">3m</a>
+        <a onclick="HumbleFinance.zoom(127);">6m</a>
+        <a onclick="HumbleFinance.zoom(254);">1y</a>
+        <a onclick="HumbleFinance.zoom(1265);">5y</a>
+      </div>
+      <div id="dateRange"></div>
+    </div>
+  </div>
+        <p>
+            This is template for chart comparing two different measurements.
+            One use case can be to compare performance of two different implementations.
+        <p>
+            <ul>
+                <li>Top graph represents to metrics we want to compare. Can be focused to specific data series.</li>
+                <li>Middle graph represents the difference between them. Could be plain difference, can be order of
+                    magnitude. Follows selected data series as the top graph.</li>
+                <li>Bottom graph represents summary over all measurements. Can show sum of both metrics. With large
+                    data sets, it is useful to use average over data series interval.</li>
+                <li>Flags represent points of interest, e.g. performance difference exceeding given threshold.</li>
+            </ul>
+        </p>
+        <p>
+            This template behaves better with fairly large datasets, e.g. in hundreds of data points.
+            Some autoscaling features misbehave under hundred of data points.
+            Might not render under 10 data points. 
+        </p>
+        <p>
+            This template is a modified version of the
+            <a href="http://www.humblesoftware.com/finance/index">Humble Finance</a>.
+            To learn more about it or underlaying technologies like 
+            <a href="http://humblesoftware.com/envision/">envision.js</a>, or
+            <a href="http://www.humblesoftware.com/flotr2/index">flotr2</a>, follow the links.
+            <br>
+            Those projects are really fine software, all the credits to 
+             <a href="http://www.humblesoftware.com/">humble software development</a> team.
+        <p>
+  </div>
+</body>
+</html>
