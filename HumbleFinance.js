@@ -25,7 +25,7 @@
 
 /**
  * Modified version of the HumbleFinance Flotr Financial Charts
- * See {@link http://humblesoftware.com/finance/source original}.
+ * See {@link http://humblesoftware.com/static/lib/finance/HumbleFinance.js?d3fa1 original}.
  *
  * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
  * @author Jakub Siberski
