@@ -19,7 +19,7 @@ template for performance comparison chart
 # credits
 This template is a modified version of the [Humble Finance](http://www.humblesoftware.com/finance/index)
 To learn more about it or underlaying technologies like [envision.js](http://humblesoftware.com/envision/), or 
-[flotr2](http://www.humblesoftware.com/flotr2/index)follow the links.
+[flotr2](http://www.humblesoftware.com/flotr2/index). Follow the links.
 
 Those projects are really fine software, all the credits to [humble software development](http://www.humblesoftware.com/) team.
 
